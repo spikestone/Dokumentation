@@ -8,7 +8,7 @@ BRANCH_NAME = 'Jan Sternberg'  # oder der Name deiner Hauptentwicklungszweig
 SCRIPT_NAME = 'test.py'  # der Name deines Skripts
 
 # Anmeldung bei GitHub mit deinem Benutzernamen und einem Access Token oder Passwort
-g = Github(os.environ.get('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))
+g = Github(os.environ.get(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))
 
 # Finde das Repository und den entsprechenden Branch
 repo = g.get_user(REPO_OWNER).get_repo(REPO_NAME)
